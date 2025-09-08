@@ -7,10 +7,8 @@ int compareson(int a , int b) {
     scanf("%d" , &b);
     if (a > b) {
         printf("%d > %d" , a , b);
-    }else if (a < b) {
-        printf("%d < %d" , a , b);
-    } else {
-        printf("%d = %d" , a , b);
+    }else if (b > a) {
+        printf("%d > %d" , b , a);
     }
     return 1;
 }
