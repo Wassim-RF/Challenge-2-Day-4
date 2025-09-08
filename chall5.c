@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int factorial(int num) {
+long long int factorial(int num) {
     int i ;
     int fact = 1 ;
     printf("Enter a number : ");
